@@ -54,7 +54,7 @@ appCtx.setAppJsonOpt(appJson);
 appCtx.setBuildProfileOpt(buildProfile);  
 ```
 
-![image-20250423175204724](.\image-20250423175204724-17472777107963.png)
+[HarmonyOS-Next-Knowledge-Base/HarmonyOSNextKnowledgeLearning/DevEco Studio/One-Click Multi-Environment Build - Mastering HarmonyOS 5 with Hvigor/image-20250423175204724-17472777107963.png at main · supermanaaaa/HarmonyOS-Next-Knowledge-Base](https://github.com/supermanaaaa/HarmonyOS-Next-Knowledge-Base/blob/main/HarmonyOSNextKnowledgeLearning/DevEco Studio/One-Click Multi-Environment Build - Mastering HarmonyOS 5 with Hvigor/image-20250423175204724-17472777107963.png)
 
 ## Ⅱ. Combining Multi-Target Builds with Custom Plugins for Environment Switching
 
