@@ -12,7 +12,7 @@ Simply put, multi-target products refer to highly customized output modules. Dev
 
 ### 2. Build Schematic Diagram
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27400%27%20height=%27256%27/%3e)![image](https://alliance-communityfile-drcn.dbankcdn.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20250418154627.64703285563402700451040688667200:50001231000000:2800:BC8D743FEC9618A1BB43BA5947170F4C6B851E59029B48AB88A96E1F35A9D8F8.png)
+![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27400%27%20height=%27256%27/%3e)![image](./img/HarmonyOS Next Building Applications with Different Package Names Using MultiTarget Products in One Project-01.png)
 
 ## II. Implementing Multi-Target Product Building in a Project
 
