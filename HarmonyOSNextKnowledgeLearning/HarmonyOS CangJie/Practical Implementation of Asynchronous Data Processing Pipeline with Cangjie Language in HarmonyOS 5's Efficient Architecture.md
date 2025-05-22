@@ -4,8 +4,6 @@ In the multi-device collaboration scenario of HarmonyOS 5, device terminals need
 
 Based on practical project experience, this article leverages the powerful concurrency, generics, and functional features of the Cangjie Language to design and implement an asynchronous data processing pipeline system, balancing performance, scalability, and code maintainability.
 
-------
-
 ## 1. Architectural Design Considerations
 
 ### Requirement Context
@@ -36,8 +34,6 @@ Each module is connected via asynchronous queues, with overall data flow driven 
 | Generic Interfaces                              | Abstract data processing flows for easy system expansion     |
 | Lambda Expressions and Pipeline Operators (`>`) | -                                                            |
 | Algebraic Data Types (ADT) and Pattern Matching | Gracefully handle different sensor data types                |
-
-------
 
 ## 2. Implementation of Core Modules
 
@@ -156,8 +152,6 @@ main() {
 }
 ```
 
-------
-
 ## 3. Performance Optimization and Expansion
 
 ### Concurrency and Resource Control
@@ -194,8 +188,6 @@ thread.start {
 | Support Dynamic Addition of Pipeline Stages       | Use generics + factory pattern for dynamic registration of new processors |
 | Support Asynchronous Exception Handling Mechanism | Encapsulate `try - catch` in `PipelineRunner` and callback error handlers |
 | Flow Control and Load Balancing Support           | Monitor queue length and dynamically adjust production/consumption rates based on traffic |
-
-------
 
 ## Conclusion
 

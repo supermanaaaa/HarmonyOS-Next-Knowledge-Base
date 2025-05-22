@@ -4,8 +4,6 @@ For those of us in the development field, we're all too familiar with how frustr
 
 Today, let’s take a detailed look at just how remarkable `cjpm` really is.
 
-------
-
 ## **Basic Knowledge of `cjpm`**
 
 In the past, during Android development, managing dependencies was nothing short of a nightmare. Version conflicts among libraries often led to compilation failures, and developers spent countless hours troubleshooting.
@@ -22,8 +20,6 @@ cjpm init
 ```
 
 This sets up the project structure, laying the foundation like prepping the Lego baseplate for your castle.
-
-------
 
 ## **Exploring Automatic Dependency Management**
 
@@ -57,8 +53,6 @@ It analyzes and merges all dependencies for you—no conflict resolution nightma
 ```
 
 `cjpm` handles internal dependencies in the background, making development **smooth and conflict-free**.
-
-------
 
 ## **The Power of Customized Building**
 
@@ -94,8 +88,6 @@ func stagePostBuild(): Int64 {
 ```
 
 > It's like customizing your Lego workflow: prepping special bricks before building and tidying up afterward.
-
-------
 
 ## **Conclusion**
 

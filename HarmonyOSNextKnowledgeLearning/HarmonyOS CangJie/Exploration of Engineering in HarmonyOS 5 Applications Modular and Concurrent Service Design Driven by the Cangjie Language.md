@@ -4,8 +4,6 @@ With the full-scale application of HarmonyOS 5, the scale and complexity of appl
 
 This article combines practical project experience and, based on the Cangjie language, explores how to build an application framework with clear modularization, concurrent friendliness, and unified interface specifications.
 
-------
-
 ## 1. Modular Design Principles
 
 ### Goals and Pain Points
@@ -32,8 +30,6 @@ The features of the Cangjie language—such as the generic system, interfaces, t
 1. Use generic interfaces to unify the interaction methods between modules, enhancing compatibility and generality.
 2. Use the extension mechanism to enhance system functions based on actual requirements, improving flexibility.
 3. Leverage type inference and named parameters to improve the flexibility of module combinations and reduce development complexity.
-
-------
 
 ## 2. Concurrent Service Framework Construction
 
@@ -144,8 +140,6 @@ main() {
 }
 ```
 
-------
-
 ## 3. Type Safety and Interface Standardization
 
 ### Why Pursue Unified Interfaces?
@@ -186,8 +180,6 @@ registerService(manager, service: NewCustomService())
 ```
 
 This approach requires no modification to the core framework, providing excellent scalability.
-
-------
 
 ## Summary
 

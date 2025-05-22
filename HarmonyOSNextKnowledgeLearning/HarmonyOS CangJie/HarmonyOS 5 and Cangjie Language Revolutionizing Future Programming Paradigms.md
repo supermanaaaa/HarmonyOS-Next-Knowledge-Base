@@ -4,8 +4,6 @@ In today's rapidly evolving software development landscape, the emergence of **H
 
 This article explores how HarmonyOS 5 and Cangjie reshape future programming across three dimensions: AI integration, simplification of concurrent/distributed programming, and the evolution of the development experience.
 
-------
-
 ## 1. Deep Integration of AI and Programming
 
 ### 1.1 From Auxiliary Tool to Core Productivity
@@ -29,8 +27,6 @@ For example, the **Agent DSL** in Cangjie allows declarative behavior definition
 ```
 
 > In this setup, developers define intentions and constraints; AI handles the implementation—dramatically increasing efficiency.
-
-------
 
 ## 2. Simplification of Concurrent and Distributed Programming
 
@@ -61,8 +57,6 @@ distributedTask ::= "task" taskName "on" nodeList "with" resourceSpec "execute" 
 
 This DSL allows developers to **describe distributed systems at a higher level**, abstracting away thread management and inter-node communication.
 
-------
-
 ## 3. Revolutionary Improvement in Development Experience
 
 ### 3.1 From Manual Coding to “Problem Definition Is Code”
@@ -88,8 +82,6 @@ class ProductRecommender {
 ```
 
 > Developers define **objectives and constraints**; the system generates the implementation. This shift drastically lowers the development threshold and boosts efficiency.
-
-------
 
 ## Conclusion
 

@@ -4,8 +4,6 @@ In the development context of HarmonyOS 5, secure programming is a critical fact
 
 As a technical professional long engaged in related development work, I will deeply analyze the core aspects of Cangjie language in secure programming by combining **practical project experience** below.
 
-------
-
 ## I. Type System Design
 
 ### (1) How Static Checking Avoids Actor Message Passing Errors
@@ -42,8 +40,6 @@ If a wrong type is passed to `sendMessage`, the compiler will report a **type mi
 - Improves reliability
 - Enhances system security
 
-------
-
 ## II. Memory Model Analysis
 
 ### (1) Data Race-Free Memory Isolation Mechanism (Comparison with Java Memory Model)
@@ -75,8 +71,6 @@ Cangjie also uses **automatic memory management**, avoiding:
 - Manual memory deallocation
 - Memory leaks
 - Dangling pointers
-
-------
 
 ## III. Secure Coding Standards
 
@@ -118,8 +112,6 @@ Benefits:
 - Prevents tampering and forgery
 - Ensures secure communication between distributed nodes
 - Can be **combined with encryption** for enhanced protection
-
-------
 
 ## Conclusion
 

@@ -4,8 +4,6 @@ In scenarios such as smart terminals, the Internet of Things (IoT), and edge com
 
 Thankfully, the Cangjie language has created an elegant and efficient model for concurrency programming, significantly reducing development complexity. As an engineer who has long participated in the HarmonyOS 5 project, I will now combine practical examples to take you deep into the power of Cangjie's concurrency model.
 
-------
-
 ## Lightweight User-Mode Threads: The Foundation of Efficient Concurrency
 
 The Cangjie language abandons the heavyweight design of traditional system threads and adopts lightweight user-mode threads, which have the following characteristics:
@@ -56,8 +54,6 @@ Hello from thread 2
 - The anonymous code block is the thread's execution body.
 - The coding experience is similar to a regular function call, simple and convenient.
 
-------
-
 ## Concurrent Object Library: Thread Safety Has Never Been Easier
 
 In traditional concurrent programming, data races and deadlocks are tough problems. Cangjie greatly reduces the burden on developers for handling concurrency through its built-in Concurrent Object Library, with the following mechanisms:
@@ -101,8 +97,6 @@ main() {
 
 **Practical Experience**: In the past, writing concurrent logic required careful lock management. Now, with the Concurrent Object Library, concurrent operations can be performed almost effortlessly, significantly improving development speed and code correctness.
 
-------
-
 ## Lock-Free and Fine-Grained Locking: Ensuring Extreme Performance
 
 Although default concurrent objects meet most scenarios, in performance-critical scenarios (such as high-frequency trading or real-time sensor processing), the overhead of locks cannot be ignored. To address this, Cangjie's concurrency library uses **lock-free or fine-grained locking** techniques for some core structures (such as lock-free queues and CAS variables), with the following advantages:
@@ -134,8 +128,6 @@ thread.start {
 - The `Queue` is internally implemented with a lock-free algorithm for excellent performance.
 - Suitable for high-concurrency producer-consumer scenarios.
 
-------
-
 ### Summary Table: Overview of Cangjie's Concurrency Features
 
 | Feature                                  | Description                                      | Practical Significance                                  |
@@ -143,8 +135,6 @@ thread.start {
 | User-Mode Threads                        | Lightweight, efficient, supports massive threads | Enables fast response and high concurrency              |
 | Concurrent Object Library                | Automatic thread-safe encapsulation              | Simplifies development and reduces code vulnerabilities |
 | Lock-Free/Fine-Grained Lock Optimization | Achieves high-performance concurrency            | Meets extreme performance requirements                  |
-
-------
 
 ## Conclusion
 

@@ -4,8 +4,6 @@ In the Cangjie language, **generics** and **type extension** are two highly prod
 
 During my actual development experience with HarmonyOS 5 applications, these features helped me reduce duplicate code significantly while making the system architecture clearer and more flexible. In this article, we’ll explore these two powerful features from a **practical perspective**.
 
-------
-
 ## **Generic Programming: Write Once, Use Everywhere**
 
 Generics allow the use of **type parameters** when defining classes, interfaces, and functions—without binding to a specific type. This abstraction:
@@ -54,8 +52,6 @@ main() {
 - `T` is a **generic type parameter**—it can be `Int`, `String`, or any custom object.
 - With **type inference**, developers don’t even need to specify `T` manually in most cases.
 
-------
-
 ### **Generic Constraints: Precise Control of Type Capabilities**
 
 Sometimes, you want to restrict the generic type to support certain operations (e.g., comparison, sorting). Cangjie supports this via the `where` clause.
@@ -80,13 +76,9 @@ func lookup<T>(element: T, arr: Array<T>): Bool where T <: Equatable {
 
 💡 **Practical Benefit:** Ensures correctness *before* runtime—no more hidden type errors.
 
-------
-
 ## **Type Extension: Non-Intrusively Enhance Existing Types**
 
 Type extension allows you to **add methods or interfaces to existing types** without modifying their source code. This promotes **modularity and maintainability**.
-
-------
 
 ### **Example: Add Method to String Type**
 
@@ -107,8 +99,6 @@ main() {
 - `extend` begins the type extension.
 - `this` refers to the current object.
 - Extended methods behave like **native methods**.
-
-------
 
 ### **Advanced Use: Implementing Interfaces via Extension**
 
@@ -131,8 +121,6 @@ main() {
 - `sealed` means the interface can only be implemented within the same package.
 - Built-in types like `Int32` can now participate in interface-based polymorphism.
 
-------
-
 ### 🔍 Summary Table: Cangjie’s Generics & Extension Features
 
 | Feature                    | Description                              | Example Use Case            |
@@ -142,8 +130,6 @@ main() {
 | Generic Constraint         | Restrict generics to required interfaces | `where T <: Equatable`      |
 | Type Extension (Method)    | Add methods to existing types            | `String.printSize()`        |
 | Type Extension (Interface) | Add interface implementations            | `Int32 <: Integer`          |
-
-------
 
 ## **Conclusion**
 

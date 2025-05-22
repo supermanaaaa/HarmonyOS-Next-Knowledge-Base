@@ -4,13 +4,9 @@ Performance has always been a critical metric for system-level application devel
 
 To address these challenges, the Cangjie language has integrated performance optimizations into its entire design from the ground up. Every **环节 (link)** from the compiler to the runtime has been carefully crafted to pursue excellent execution efficiency while maintaining a good development experience. Below, **结合 (combining)** practical experience, I'll take you through Cangjie's innovative approaches and real-world results in compilation optimizations and runtime design.
 
-------
-
 ## Cangjie Compiler Optimization System: Full-Stack Acceleration for Ultimate Performance
 
 Cangjie employs a hierarchical compilation optimization system that divides optimization logic into distinct stages, each with specific optimization goals.
-
-------
 
 ### 1. High-Level IR (CHIR) Optimization
 
@@ -26,8 +22,6 @@ The Cangjie compiler first translates source code into an intermediate represent
 **Practical Experience**:
  When handling complex business logic, the compiler's build time is extremely short, and the generated binaries are both small and performant.
 
-------
-
 ### 2. Backend Instruction-Level Optimization
 
 After CHIR optimizations, the compiler performs a series of low-level instruction-level optimizations:
@@ -40,8 +34,6 @@ After CHIR optimizations, the compiler performs a series of low-level instructio
 | Interprocedural Pointer Analysis (IPA) | Optimizes cross-module pointer access to reduce indirection overhead |
 
 These optimizations fully leverage hardware capabilities, especially on multi-core and heterogeneous computing platforms.
-
-------
 
 ### 3. Runtime Dynamic Optimization (JIT/AOT Hybrid)
 
@@ -57,13 +49,9 @@ The Cangjie runtime supports runtime optimizations, including:
 | Compile-Time       | CHIR, backend SLP, etc.                   | Reduces CPU cycles, improves peak performance  |
 | Runtime            | GC, lock optimizations, module activation | Lowers latency, enhances system responsiveness |
 
-------
-
 ## Cangjie Runtime Architecture: Modular, Lightweight, and Elastically Scalable
 
 The Cangjie runtime is designed to be extremely lightweight, optimized specifically for HarmonyOS 5's requirements in multi-device and resource-sensitive scenarios.
-
-------
 
 ### Core Features
 
@@ -73,8 +61,6 @@ The Cangjie runtime is designed to be extremely lightweight, optimized specifica
 | Common Object Model (POM)     | Unified management of memory, exceptions, and type system    |
 | On-Demand Package Loading     | Loads modules only when used, reducing initial memory footprint |
 | Lightweight Memory Management | Optimized for IoT devices and lightweight terminals          |
-
-------
 
 ### Example: On-Demand Module Loading
 
@@ -87,7 +73,7 @@ Consider a device that initially only needs basic UI components. When the user e
 **Practical Experience**:
  In real projects, the same Cangjie application dynamically adapts resource usage across flagship phones, IoT devices, and smart screens, delivering a smooth experience everywhere.
 
-------
+
 
 ## Cangjie Development Toolchain: Your Performance Tuning Companion
 
@@ -100,7 +86,7 @@ Beyond language and runtime optimizations, Cangjie provides a comprehensive tool
 | Mock Testing Tools    | Rapid setup of lightweight test environments                 |
 | AI Code Completion    | Enhances coding efficiency                                   |
 
-------
+
 
 ### Sample Profiler Output
 
@@ -113,7 +99,7 @@ Beyond language and runtime optimizations, Cangjie provides a comprehensive tool
 **Practical Experience**:
  When identifying performance bottlenecks, the Cangjie toolchain, combined with the language's inherent performance features, drastically shortens the tuning cycle, making optimization part of the development process.
 
-------
+
 
 ## Conclusion
 

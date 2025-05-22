@@ -4,8 +4,6 @@ As a developer who has deeply used HarmonyOS 5 in multiple large-scale projects,
 
 This article will take you deep into the core of this macro system and share our **best practices in actual projects**.
 
-------
-
 ## I. Procedural Macros: Code Magicians at Compile Time
 
 ### 1.1 Practical Combat of Debug Log Macros
@@ -39,7 +37,7 @@ let result = @DebugLog(heavyCompute(data))
 
 > ✅ This macro identified **30% of time-consuming operations** during performance optimization.
 
-------
+
 
 ### 1.2 The Wisdom of Conditional Compilation
 
@@ -67,7 +65,7 @@ let file = @PlatformIO()
 | Traditional conditional logic  | Large       | Yes              |
 | Macro-based compile-time logic | Small       | No               |
 
-------
+
 
 ## II. Template Macros: The Cornerstone of Domain-Specific Languages
 
@@ -101,7 +99,7 @@ public template macro route {
 2. Automatically injects `Context` objects
 3. Maintains **compile-time type safety**
 
-------
+
 
 ### 2.2 Security Pattern Guarantees
 
@@ -156,7 +154,7 @@ doWork()
 
 > 🧠 `gensym()` ensures all generated symbols are uniquely scoped.
 
-------
+
 
 ### 3.2 Balance Between Performance and Debugging
 

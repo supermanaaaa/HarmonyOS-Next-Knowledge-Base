@@ -2,9 +2,7 @@
 
 As HarmonyOS 5 gradually matures, developers have set higher demands for programming languages in the new ecosystem: they need to enable efficient development, ensure performance and security, and easily adapt to complex scenarios of smart terminals, edge computing, and cloud collaboration. Against this backdrop, **Cangjie language** emerges.
 
-As an engineer actually involved in HarmonyOS 5 application development, I deeply feel during my use of Cangjie that this is not just a simple language replacement, but a complete innovation from language design to development experience. In this article, I will **结合 (combine) 实践 (practice)** to take you through the charm of Cangjie language, starting from its language features, paradigm support, and basic syntax.
-
-------
+As an engineer actually involved in HarmonyOS 5 application development, I deeply feel during my use of Cangjie that this is not just a simple language replacement, but a complete innovation from language design to development experience. In this article, I will *combine，practice)* to take you through the charm of Cangjie language, starting from its language features, paradigm support, and basic syntax.
 
 ## Introduction to Cangjie and the Background of HarmonyOS 5
 
@@ -26,8 +24,6 @@ In essence, **Cangjie is the default preferred language for HarmonyOS 5 applicat
 ## Cangjie's Multi-Paradigm Support: Truly Developer-Centric
 
 In real projects, the most intuitive feeling I have with Cangjie is that it is not confined to a single paradigm but **naturally integrates multiple programming styles**, allowing us to freely choose the most suitable expression according to business characteristics.
-
-------
 
 ### 1. Object-Oriented Programming (OOP)
 
@@ -59,8 +55,6 @@ main() {
 **Practical Experience:**
  Highly consistent with the design philosophy of modern programming languages (such as Kotlin/Swift), reducing redundancy while being inherently secure.
 
-------
-
 ### 2. Functional Programming (FP)
 
 In Cangjie, functions are **first-class citizens**, freely assignable, passable, and returnable:
@@ -84,8 +78,6 @@ main() {
 **Practical Experience:**
  In scenarios like list manipulation, state machines, and asynchronous orchestration, Cangjie's functional features are incredibly handy.
 
-------
-
 ### 3. Imperative Programming
 
 Of course, for most daily business logic, such as UI control and IO handling, traditional imperative programming fits seamlessly in Cangjie:
@@ -100,8 +92,6 @@ println(total)
 
 **Practical Experience:**
  It maintains familiarity without forcing developers to adapt to a "highbrow" style, making it very user-friendly.
-
-------
 
 ## Cangjie's Basic Syntax and First Hello World Example
 
@@ -152,8 +142,6 @@ main() {
 ```
 Welcome to HarmonyOS 5 with Cangjie!
 ```
-
-------
 
 ## Conclusion
 

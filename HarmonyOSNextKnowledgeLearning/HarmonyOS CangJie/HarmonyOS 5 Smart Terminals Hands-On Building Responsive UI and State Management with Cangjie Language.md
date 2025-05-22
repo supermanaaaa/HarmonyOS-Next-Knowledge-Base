@@ -4,8 +4,6 @@ In the era of HarmonyOS 5, the diversity of devices has expanded to include smar
 
 This article presents a hands-on implementation of a lightweight, elegant, and high-performance responsive UI and state management system using the Cangjie language, balancing performance experience with clear architectural design.
 
-------
-
 ## 1. Responsive Architecture Design
 
 ### Why Responsive UI?
@@ -30,16 +28,12 @@ The responsive UI model features automatic UI updates triggered by data changes,
 2. Unified update channels simplify management and maintenance.
 3. Easier extension and testing.
 
-------
-
 ### How Cangjie Language Helps
 
 1. **Property Mechanism (`prop` / `mut prop`)**: Transparently encapsulates getters/setters to monitor data changes.
 2. **Pipeline Operator (`|>`) + Lambda**: Builds clear data processing chains for optimized workflows.
 3. **Trailing Lambda**: Makes control logic closer to natural language, improving code readability.
 4. **Lightweight Threads**: Ensures UI updates do not block the main process, maintaining smooth operation.
-
-------
 
 ### Architecture Diagram
 
@@ -50,8 +44,6 @@ graph TD;
 ```
 
 The core idea is to decouple Model and View for automatic change detection.
-
-------
 
 ## 2. Building the State Management Model
 
@@ -71,8 +63,6 @@ enum UIState {
 
 - Explicitly lists all valid states.
 - Each state can carry relevant data (e.g., success data or error messages).
-
-------
 
 #### Define View Controller
 
@@ -103,8 +93,6 @@ class ViewController {
 - `currentState` is a mutable property (`mut prop`).
 - Assigning to it automatically triggers rendering logic—no manual `updateUI` calls needed.
 
-------
-
 #### Simulate State Transitions
 
 ```cangjie
@@ -133,8 +121,6 @@ UI: Displaying Sensor Data: 25°C
 UI: Error - Connection lost
 ```
 
-------
-
 ### Key Design Points
 
 | Technical Point          | Role                             |
@@ -145,8 +131,6 @@ UI: Error - Connection lost
 
 This model is clearer, more organized, and more scalable than traditional `if-else` logic.
 
-------
-
 ## 3. Enhancing Performance and Experience
 
 ### How to Ensure Smoothness During High-Frequency Updates?
@@ -154,8 +138,6 @@ This model is clearer, more organized, and more scalable than traditional `if-el
 1. **Lightweight Thread Updates**: Separate UI update triggers from data collection to avoid blocking.
 2. **Batch Rendering**: Merge multiple state changes to reduce UI refresh frequency and improve performance.
 3. **Pipeline Data Processing**: Use Cangjie’s pipeline operators to optimize data handling chains.
-
-------
 
 ### Example: Data Stream + Batching Optimization
 
@@ -201,8 +183,6 @@ main() {
 - `DataProvider` uses a concurrency-safe queue to collect state changes.
 - An independent thread listens and pushes states to `ViewController`.
 - The main thread remains unblocked for smooth operation.
-
-------
 
 ## Summary
 

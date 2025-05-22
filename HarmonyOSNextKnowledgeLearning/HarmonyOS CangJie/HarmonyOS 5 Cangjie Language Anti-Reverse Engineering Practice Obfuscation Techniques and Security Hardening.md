@@ -47,8 +47,6 @@ class a {
 
 > ✅ In one banking app, structural obfuscation extended reverse engineering time from **2 hours to over 3 weeks**.
 
-------
-
 ## II. Data Obfuscation: Invisibility for Strings and Constants
 
 Plaintext strings in code are like passwords on a sticky note — **visible and risky**. Cangjie’s data obfuscation is like a **privacy glass**: you can see from the inside, but not from the outside.
@@ -90,8 +88,6 @@ const FLAG = (0x12345678 ^ 0xCCCCCCCC) + 0x24681357
 
 > 🧠 In HarmonyNext DRM modules, this technique **increased reverse difficulty by 10x** for static analysis tools.
 
-------
-
 ## III. Control Flow Obfuscation: Creating Logical Labyrinths
 
 Clear control flow is a **reverser’s paradise** — it shows exactly where things go. But what if that highway became **Chongqing-style overpasses**?
@@ -130,9 +126,7 @@ HarmonyNext game engine internal test results:
 
 > 🔐 **Military-grade strategy**: Use **high-intensity obfuscation on critical paths**, and **light/no obfuscation** on peripheral logic to optimize build size and runtime.
 
-------
-
-## 🔚 Conclusion: Obfuscation is a Strategic Tool, Not a Silver Bullet
+##  Conclusion: Obfuscation is a Strategic Tool, Not a Silver Bullet
 
 - Symbol obfuscation **hides your API surface**
 - Data obfuscation **protects secrets**

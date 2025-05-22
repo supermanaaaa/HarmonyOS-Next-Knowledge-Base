@@ -2,8 +2,6 @@
 
 In the development field of HarmonyOS 5, the concurrent programming paradigm of Cangjie Language brings brand-new ideas and methods to developers. It not only solves many problems in traditional concurrent programming but also provides powerful tools and features, making concurrent programming more efficient and secure. As a technical personnel with rich practical experience in this field, I will deeply analyze the concurrent programming paradigm of Cangjie Language by combining the experience in the actual development process below.
 
-------
-
 ## 一、Basics of the Concurrency Model
 
 ### （一）Design Concepts of Parallel/Concurrency in Cangjie Language
@@ -76,8 +74,6 @@ actor SharedVariableActor {
 
 Through the Actor model, different Actors communicate through message passing, avoiding the data race problem caused by shared memory.
 
-------
-
 ## 二、Visual Tuning Tools
 
 ### （一）Practical Demonstration of Task Scheduling Statistics and Measure Lanes
@@ -98,8 +94,6 @@ We can easily locate pseudo-parallel problems through visual tuning tools. For e
 | Mode B           | 500                      | 80                  | No                             |
 
 It can be seen from the table that Mode A has a long task execution time and low CPU utilization, and there is likely a pseudo-parallel problem. By further analyzing the data provided by the visual tool, we can find out the reasons for pseudo-parallelism, such as overly complex dependency relationships between tasks or unreasonable thread synchronization mechanisms, and carry out targeted optimization.
-
-------
 
 ## 三、Initial Exploration of the Actor Model
 
@@ -124,8 +118,6 @@ In this example, `MessageReceiver` is an Actor type, which defines a receiver fu
 An important advantage of the Actor model in Cangjie Language is that it realizes unified programming for distributed and concurrent systems. This means that developers can use the same programming method to write concurrent programs and distributed programs and then easily deploy them in a distributed environment.
 
 In traditional development, writing concurrent programs and distributed programs usually requires using different technologies and frameworks, which increases the complexity of development. In Cangjie Language, through the Actor model, developers can focus on the implementation of business logic without paying too much attention to the underlying distributed details. For example, in a distributed system, Actors on different nodes can communicate through message passing, just like in a local concurrent environment, which greatly simplifies the development process of distributed systems.
-
-------
 
 **Conclusion:**
  The concurrent programming paradigm of Cangjie Language brings many advantages to the development of HarmonyOS 5. Through its unique design concepts, powerful visual tuning tools, and Actor model, developers can write concurrent programs more efficiently and securely. In the actual development process, we should make full use of these features, continuously optimize our code, and improve the performance and reliability of the system.

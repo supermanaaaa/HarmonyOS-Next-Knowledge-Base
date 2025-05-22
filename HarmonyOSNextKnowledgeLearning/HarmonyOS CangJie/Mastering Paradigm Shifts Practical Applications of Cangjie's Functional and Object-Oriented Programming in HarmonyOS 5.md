@@ -6,8 +6,6 @@ In HarmonyOS 5 application development, I have personally experienced that wheth
 
 In this article, let me take you on an exploration of how to master different programming paradigms in Cangjie and grasp the best practices in actual development.
 
-------
-
 ## Functional Programming: A Concise Tool for Expressing Business Logic
 
 In Cangjie, functions are "first-class citizens." This means:
@@ -15,8 +13,6 @@ In Cangjie, functions are "first-class citizens." This means:
 1. Functions can be assigned, passed, and returned like ordinary variables.
 2. Supports higher-order functions, lambda expressions, and currying.
 3. Rich pattern matching (`match-case`) greatly simplifies conditional branches.
-
-------
 
 ### Practical Example: Higher-Order Functions + Lambda
 
@@ -54,8 +50,6 @@ let result = nums
 **Practical Experience**:
  Cangjie's functional programming syntax closely adheres to the natural expression of business logic. The code is not only concise but also highly readable.
 
-------
-
 ## Object-Oriented Programming: The Foundation for Modeling Complex Systems
 
 Although Cangjie has strong support for functional programming, its object-oriented (OOP) capabilities are equally solid, especially in the following scenarios:
@@ -63,8 +57,6 @@ Although Cangjie has strong support for functional programming, its object-orien
 1. Complex business modeling (such as order, payment, and logistics systems)
 2. Interface component encapsulation (UI controls, interaction logic)
 3. Cross-module communication (service interfaces, protocol definitions)
-
-------
 
 ### Summary Table of Cangjie OOP Core Features
 
@@ -74,8 +66,6 @@ Although Cangjie has strong support for functional programming, its object-orien
 | Multiple Interface Implementations | A class can implement multiple interfaces                    |
 | `open` Modifier                    | Controls whether a class or method can be inherited/overridden |
 | All Classes Inherit `Any`          | Ensures a unified basic object model                         |
-
-------
 
 ### Practical Example: Classes, Interfaces, and Polymorphism
 
@@ -133,8 +123,6 @@ main() {
 **Practical Experience**:
  Cangjie's OOP model is clean and concise, without the problems of complex multiple inheritance, and can meet most object-oriented requirements, making it very suitable for large system modeling.
 
-------
-
 ## Mixed Paradigm Practice: Smooth Switching, at Ease
 
 In real projects, we often need to combine functional and object-oriented programming.
@@ -170,8 +158,6 @@ main() {
 2. Internally, `filter` + `map` higher-order functions are used to quickly process the collection.
 
 This way of using a mixed paradigm is extremely natural in Cangjie, and the development experience is very smooth without a sense of fragmentation.
-
-------
 
 ## Conclusion
 

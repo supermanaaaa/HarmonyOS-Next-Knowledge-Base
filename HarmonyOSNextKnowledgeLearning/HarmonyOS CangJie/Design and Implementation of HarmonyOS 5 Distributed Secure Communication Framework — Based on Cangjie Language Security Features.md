@@ -2,8 +2,6 @@
 
 This article aims to deeply explore the technical details of Huawei's HarmonyOS 5 system, summarized based on practical development experience. It is mainly used as a platform for technical sharing and communication. Errors and omissions are inevitable, and colleagues are welcome to provide valuable opinions and questions for mutual progress. This is original content; any form of reproduction must indicate the source and original author.
 
-------
-
 ## 1. Design of Secure Communication Protocol Layer
 
 In the distributed scenarios of HarmonyOS Next, secure communication between devices is of vital importance—similar to ancient beacon towers transmitting messages, it must prevent message tampering while ensuring accurate interpretation by the receiver. We have designed a communication protocol framework as impregnable as a "bronze wall and iron barrier" based on the security features of the Cangjie Language.
@@ -49,8 +47,6 @@ let result = processMessage(msg: receivedMsg) ?? .failure("Processing failed")
 3. Seamlessly integrated with HarmonyOS Next’s security audit logging system.
 
 Compared with traditional null-checking logic, code volume is reduced by 40%, and Null Pointer Exception (NPE) issues are effectively resolved. In vehicle-internet scenarios, this design reduced communication failure rates by 68%.
-
-------
 
 ## 2. Anti-Reverse Engineering Reinforcement Solutions
 
@@ -115,8 +111,6 @@ graph TD
 | Side-Channel Attack | Effective              | Chip-level protection             |
 
 In a certain bank’s HarmonyOS digital wallet project, this framework successfully resisted all red team attack attempts.
-
-------
 
 **Architect’s Reflection:**
  Balancing security and performance is similar to adjusting the sensitivity of a security door. Through a hierarchical obfuscation strategy (5% obfuscation intensity for the basic communication layer + 95% for core encryption modules), we achieved military-grade protection with only a 3% performance penalty. As the head of Huawei’s Security Lab once said:

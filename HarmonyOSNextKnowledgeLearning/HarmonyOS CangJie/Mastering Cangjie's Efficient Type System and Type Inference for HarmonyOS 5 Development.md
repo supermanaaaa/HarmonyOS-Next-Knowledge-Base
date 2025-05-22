@@ -4,8 +4,6 @@ When developing HarmonyOS 5 applications with **Cangjie**, I’ve increasingly r
 
 In this article, I’ll combine practical development experience to guide you through Cangjie’s type system and inference mechanisms — and show how to write **cleaner, safer, and more efficient code**.
 
-------
-
 ## Static Type System: The First Line of Defense for Compile-Time Guarantees
 
 Cangjie is a **statically typed language**, meaning types of variables, functions, and expressions are checked at **compile time**, not runtime. This design provides several key benefits:
@@ -31,8 +29,6 @@ Example:
 ```swift
 let a: Int32 = "123" // ❌ Compilation error: Type mismatch
 ```
-
-------
 
 ## Type Inference: An Elegant and Efficient Development Experience
 
@@ -77,8 +73,6 @@ map({ i => i.toString() })([1, 2, 3])
 
 💡 *Experience*: Ideal for collections, stream operations, and async workflows — similar to **TypeScript** or **Kotlin**.
 
-------
-
 ### Type Inference Summary
 
 | Scenario                           | Supported | Notes                                     |
@@ -119,8 +113,6 @@ main() {
 1. `nums` → inferred as `Array<Int>`
 2. `evenNum` → inferred as `Int?` (nullable)
 3. `match` expression → uses inferred type for pattern matching
-
-------
 
 ## Conclusion
 

@@ -2,15 +2,11 @@
 
 In the journey of HarmonyOS 5 development, ensuring code quality is akin to laying a solid foundation for a skyscraper, and the Cangjie native testing framework serves as the "infrastructure mastermind" behind this process. It provides developers with powerful testing capabilities to ensure that code runs stably in all scenarios. Let’s take an in-depth look at this remarkable testing framework.
 
-------
-
 ## Overview of the Testing Framework
 
 Imagine you are building a large smart city (a HarmonyOS 5 application), where every building (code module) must undergo rigorous quality testing before being put into use. The Cangjie native testing framework acts as the city’s quality inspection team, comprising a **unit testing framework**, **mocking testing framework**, and **benchmark testing framework** to comprehensively safeguard code quality.
 
 In Android and iOS development, testing often requires juggling multiple tools and frameworks, akin to 奔波 (shuttling) between different inspection agencies, which is inefficient. The Cangjie native testing framework integrates these functions into a unified testing ecosystem, allowing developers to complete various types of testing in one place and significantly improving development efficiency.
-
-------
 
 ## Detailed Explanation of Each Testing Framework’s Functions
 
@@ -32,8 +28,6 @@ func testAdd() {
 ```
 
 In this example, the `testAdd` function is a unit test case that invokes the `add` function and verifies whether its return value meets expectations. The unit testing framework automatically runs these test cases and generates detailed test reports, enabling us to quickly identify issues in the code.
-
-------
 
 ### Mocking Testing Framework
 
@@ -61,8 +55,6 @@ func testWithMock() {
 ```
 
 Here, we define a mock function `mockGetDataFromService` and use it to replace the real `getDataFromService` function in the test case. This allows us to test the code without relying on external services.
-
-------
 
 ### Benchmark Testing Framework
 
@@ -92,8 +84,6 @@ func benchmarkCalculateSum() {
 
 In this example, the benchmark testing framework records the execution time of the `calculateSum` function. By running benchmark tests multiple times, we can compare performance differences between different code versions and perform effective performance optimizations.
 
-------
-
 ## Collaboration and Practical Application of the Testing Frameworks
 
 In real HarmonyOS 5 project development, these three testing frameworks do not operate in isolation; instead, they collaborate to jointly ensure code quality.
@@ -101,7 +91,5 @@ In real HarmonyOS 5 project development, these three testing frameworks do not o
 For example, when developing a distributed application, we can first use the unit testing framework to test the basic functions of each module, ensuring that every module works properly. Next, we use the mocking testing framework to simulate communication and data interaction between different devices for integrated testing of the entire application. Finally, we use the benchmark testing framework to evaluate the application’s performance, identify bottlenecks, and optimize them.
 
 Through this collaborative testing approach, we can comprehensively and deeply inspect code quality and performance, ensuring that HarmonyOS 5 applications run stably and efficiently in all environments.
-
-------
 
 In summary, the Cangjie native testing framework is an indispensable tool in HarmonyOS 5 development. It provides developers with comprehensive and efficient testing capabilities, enabling us to develop high-quality applications with greater confidence. We hope developers will fully leverage this testing framework in practical development to contribute more excellent applications to the HarmonyOS 5 ecosystem!

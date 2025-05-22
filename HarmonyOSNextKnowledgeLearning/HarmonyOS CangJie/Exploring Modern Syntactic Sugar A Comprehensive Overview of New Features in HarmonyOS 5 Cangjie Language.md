@@ -4,8 +4,6 @@ In daily development, concise and elegant code not only enhances the development
 
 As an engineer who has long used Cangjie to develop HarmonyOS 5 applications, this article systematically combs through the modern features and syntactic sugars in Cangjie, analyzing their value through practical scenarios.
 
-------
-
 ## Function Overloading: Same Name, Different Parameters, Friendlier Interfaces
 
 Cangjie allows defining multiple functions with the same name within the same scope, automatically distinguishing calls by parameter count and type.
@@ -28,8 +26,6 @@ main() {
 ```
 
 > **Practical Experience**: Function overloading keeps API interfaces unified and concise, improving call experience and enhancing code scalability.
-
-------
 
 ## Named Parameters and Default Values: Enhancing Readability and Flexibility
 
@@ -74,8 +70,6 @@ main() {
 ```
 
 > **Practical Experience**: Combining default values with named parameters makes function APIs both concise and flexible, avoiding excessive overloading.
-
-------
 
 ## Trailing Lambda: A DSL Power Tool
 
@@ -141,8 +135,6 @@ double(increment(double(double(5))))
 
 > **Practical Experience**: The pipeline operator is highly useful for complex data processing chains, improving logical flow and avoiding deep nested "bracket hell."
 
-------
-
 ## Operator Overloading: Natural Custom Types
 
 Cangjie supports **overloading common operators**, allowing custom types to behave naturally.
@@ -171,8 +163,6 @@ main() {
 | ---------------------- | -------------------------- |
 | Close to Math Notation | Code aligns with intuition |
 | Less Redundancy        | Improves user experience   |
-
-------
 
 ## Properties: Graceful Field Access Control
 
@@ -212,8 +202,6 @@ Alice
 ```
 
 > **Practical Experience**: Properties encapsulate logic without affecting the object interface, making them ideal for data binding, lazy loading, and debugging.
-
-------
 
 ## Conclusion
 
