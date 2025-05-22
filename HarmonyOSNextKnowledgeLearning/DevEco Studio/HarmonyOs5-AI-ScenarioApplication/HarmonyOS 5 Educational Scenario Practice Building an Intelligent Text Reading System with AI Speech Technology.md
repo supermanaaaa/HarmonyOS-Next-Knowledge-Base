@@ -22,11 +22,6 @@ This case uses HarmonyOS’s AI speech capabilities to transform literary text i
 
 ### 2. Effect Preview
 
-![Voice Broadcast Interface](https://chatgpt.com/c/%E2%80%8B/img/remote/1460000046399383)
- *Note: The interface uses an immersive layout design, with visual hierarchy between the text area and the floating playback button.*
-
-------
-
 ## II. Implementation Analysis
 
 ### 1. Capability Integration
