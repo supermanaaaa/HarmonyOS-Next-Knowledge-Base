@@ -6,7 +6,7 @@ In the journey of HarmonyOS 5 development, ensuring code quality is akin to layi
 
 Imagine you are building a large smart city (a HarmonyOS 5 application), where every building (code module) must undergo rigorous quality testing before being put into use. The Cangjie native testing framework acts as the city’s quality inspection team, comprising a **unit testing framework**, **mocking testing framework**, and **benchmark testing framework** to comprehensively safeguard code quality.
 
-In Android and iOS development, testing often requires juggling multiple tools and frameworks, akin to 奔波 (shuttling) between different inspection agencies, which is inefficient. The Cangjie native testing framework integrates these functions into a unified testing ecosystem, allowing developers to complete various types of testing in one place and significantly improving development efficiency.
+In Android and iOS development, testing often requires juggling multiple tools and frameworks, akin to shuttling between different inspection agencies, which is inefficient. The Cangjie native testing framework integrates these functions into a unified testing ecosystem, allowing developers to complete various types of testing in one place and significantly improving development efficiency.
 
 ## Detailed Explanation of Each Testing Framework’s Functions
 

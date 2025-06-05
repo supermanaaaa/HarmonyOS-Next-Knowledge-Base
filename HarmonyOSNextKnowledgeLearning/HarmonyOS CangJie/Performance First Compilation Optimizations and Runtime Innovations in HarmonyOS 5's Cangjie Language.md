@@ -2,7 +2,7 @@
 
 Performance has always been a critical metric for system-level application developers. In a system like HarmonyOS 5, which emphasizes multi-device collaboration, edge-cloud coordination, and needs to adapt to resource-sensitive environments, every CPU cycle and megabyte of memory matters.
 
-To address these challenges, the Cangjie language has integrated performance optimizations into its entire design from the ground up. Every **环节 (link)** from the compiler to the runtime has been carefully crafted to pursue excellent execution efficiency while maintaining a good development experience. Below, **结合 (combining)** practical experience, I'll take you through Cangjie's innovative approaches and real-world results in compilation optimizations and runtime design.
+To address these challenges, the Cangjie language has integrated performance optimizations into its entire design from the ground up. Every link from the compiler to the runtime has been carefully crafted to pursue excellent execution efficiency while maintaining a good development experience. Below,  combining practical experience, I'll take you through Cangjie's innovative approaches and real-world results in compilation optimizations and runtime design.
 
 ## Cangjie Compiler Optimization System: Full-Stack Acceleration for Ultimate Performance
 
