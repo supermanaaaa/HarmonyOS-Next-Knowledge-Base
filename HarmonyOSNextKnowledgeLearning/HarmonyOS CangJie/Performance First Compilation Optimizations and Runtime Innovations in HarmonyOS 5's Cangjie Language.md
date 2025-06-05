@@ -113,4 +113,4 @@ Cangjie has built a world-class performance system in HarmonyOS 5. From compiler
 | Cross-Device Elastic Deployment | Dynamic module management for adaptive resource usage |
 
 In my HarmonyOS 5 projects, Cangjie has outperformed previous C++/Kotlin hybrid development solutions, truly achieving the goals of easy adoption, efficient execution, and simple maintenance.
- As more features are unlocked, Cangjie is poised to become the mainstream choice for edge-cloud **协同 (collaborative)** application development.
+ As more features are unlocked, Cangjie is poised to become the mainstream choice for edge-cloud collaborative application development.
