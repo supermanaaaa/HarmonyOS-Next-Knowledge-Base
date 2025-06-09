@@ -42,8 +42,6 @@ In the HarmonyOS 5 ecosystem, ArkWeb serves as a key component for H5 page rende
    })  
    ```
 
-   ![01](./01.gif)
-
 2. **Supported Network Protocols and Resource Types**
    ArkWeb supports HTTP/HTTPS protocols and local file loading. Note that directly loading HTTP content may cause a white screen; mixed mode needs to be enabled:
 
@@ -172,12 +170,10 @@ In the HarmonyOS 5 ecosystem, ArkWeb serves as a key component for H5 page rende
 
      The number corresponds to the port visible in logs. Run twice to view web loading status.
 
-     ![02](./02.png)
-
    * Log Capture and Performance Analysis: Output H5 page logs to the console via **onConsole** callback.
 
      ```typescript
-     .onConsole((event) => {  
+  .onConsole((event) => {  
        if (event) {  
          LogUtil.d(this.Tag, 'onConsole', 'getMessage:', event.message.getMessage(), 'getSourceId:',  
              event.message.getSourceId(), 'getLineNumber:', event.message.getLineNumber(), 'getMessageLevel:',  
@@ -186,9 +182,8 @@ In the HarmonyOS 5 ecosystem, ArkWeb serves as a key component for H5 page rende
        return false;  
      })  
      ```
-
-     ![03](./03.png)
-     ![04](./04.png)
+   
+     
 
 2. **Solutions for Special Scenarios**
 

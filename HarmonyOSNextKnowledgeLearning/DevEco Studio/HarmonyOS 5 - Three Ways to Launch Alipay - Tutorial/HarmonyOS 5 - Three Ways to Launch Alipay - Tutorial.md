@@ -20,7 +20,7 @@ onAlipay() {
   let obj = new PayInfo();  
   obj.appId = "1111111111111";  
   obj.orderId = "1111111111";  
-  obj.productName = "1年VIP";  
+  obj.productName = "VIP";  
   obj.amount = 10;  
   obj.notifyUrl = 'https://www.huawei.com';  
   obj.rsaPrivate = "MIICXQIBAAKBgQC...";  
@@ -46,11 +46,10 @@ onAlipay() {
 
 For the complete code, refer to the Git repository below. Detailed explanations can also be found in another blogger's article:
 
-* 博客链接: [HarmonyOS Next - Alipay SDK Integration Tutorial](https://blog.csdn.net/lowprofile_coding/article/details/141365013)
+* Link: [HarmonyOS Next - Alipay SDK Integration Tutorial](https://blog.csdn.net/lowprofile_coding/article/details/141365013)
 * **Complete Code Repository:** [https://gitee.com/qq1963861722/AliPayDemo.git](https://gitee.com/qq1963861722/AliPayDemo.git)
 
 **Effect Diagram:**
-![SDK Effect](./SDK.gif)
 
 ## II. Launching Alipay via OpenLink
 
@@ -58,7 +57,7 @@ OpenLink can be used to achieve inter-app navigation. Specifically for Alipay, y
 
 * **API Used:** `UIAbilityContext.openLink`
 * **Reference:**
-  [https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/deep-linking-startup-V5#使用openlink打开浏览器页面](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/deep-linking-startup-V5#使用openlink打开浏览器页面)
+  [https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/deep-linking-startup-V5openlink](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/deep-linking-startup-V5#使用openlink打开浏览器页面)
 
 **Code Example:**
 
@@ -82,9 +81,6 @@ context.openLink(link, openLinkOptions, (err, result) => {
 ```
 
 **Complete Code Repository:** [https://gitee.com/qq1963861722/AliPayDemo.git](https://gitee.com/qq1963861722/AliPayDemo.git)
-
-**Effect Reference:**
-![OpenLink Effect](./OpenLink.gif)
 
 ## III. Launching Alipay with `startAbility`
 
@@ -124,9 +120,6 @@ context.startAbility(want);
 ```
 
 **Complete Code Repository:** [https://gitee.com/qq1963861722/AliPayDemo.git](https://gitee.com/qq1963861722/AliPayDemo.git)
-
-**Effect Implementation:**
-![startAbility Effect](./bundName.gif)
 
 ---
 
