@@ -217,8 +217,6 @@ export function buildSchemaProcessing() {
 }  
 ```
 
-![image-20250423172138276](./image-20250423172138276-17472777107964.png)
-
 ## Ⅲ. Operation Results and Log Verification
 
 Run `hvigor build` to see injection and renaming results in logs:

@@ -1,6 +1,6 @@
 # HarmonyOS Next: Building Applications with Different Package Names Using Multi-Target Products in One Project
 
-## Introduction
+Introduction
 
 In daily development, manually switching signature files and package names when dealing with **multi-signature** and multi-product build outputs is error-prone and time-consuming. HarmonyOS provides custom hvigor plugins and multi-target product building capabilities. We can use hvigor plugins to dynamically modify project configurations, ensuring that a single codebase can switch between different package names while maintaining core functionality. This allows us to generate customized build products through multi-target product building.
 
