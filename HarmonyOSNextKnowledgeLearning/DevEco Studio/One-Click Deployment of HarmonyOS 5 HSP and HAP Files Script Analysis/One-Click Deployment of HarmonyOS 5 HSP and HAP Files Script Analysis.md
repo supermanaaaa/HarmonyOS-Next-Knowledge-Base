@@ -15,8 +15,6 @@ The script achieves the following functions:
 5. **Automatic Application Launch**: Starts the application's EntryAbility via `hdc shell` after successful installation.
 6. **Robust Error Handling**: Real-time installation status detection, with process interruption and detailed error prompts on failure.
 
-![1.脚本使用介绍](./1.脚本使用介绍.png)
-
 ---
 
 ## File Description
@@ -26,8 +24,6 @@ The script achieves the following functions:
 * **Purpose**: Stores the HarmonyOS 5 application package name (e.g., `com.atomicservice.5765880207855877209`).
 * **Advantage**: Avoids repeated input, suitable for fixed-package-name testing scenarios.
 * **Format Requirement**: Single-line content with no additional syntax.
-
-![2.脚本配置](./2.脚本配置.png)
 
 ### 2. Batch Script `install_v1.0.1.bat`
 
