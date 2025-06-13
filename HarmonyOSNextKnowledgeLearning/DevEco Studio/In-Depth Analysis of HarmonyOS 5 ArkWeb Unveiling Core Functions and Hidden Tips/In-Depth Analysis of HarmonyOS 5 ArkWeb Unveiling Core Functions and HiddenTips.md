@@ -117,7 +117,7 @@ In the HarmonyOS 5 ecosystem, ArkWeb serves as a key component for H5 page rende
              PhotoSelectOptions.MIMEType = photoAccessHelper.PhotoViewMIMETypes.IMAGE_VIDEO_TYPE  
              PhotoSelectOptions.maxSelectNumber = this.selectPhotoMaxNumber  
              PhotoSelectOptions.isOriginalSupported = true  
-             PhotoSelectOptions.subWindowName = '选择上传图片'  
+             PhotoSelectOptions.subWindowName = 'aa'  
              const photoPicker = new photoAccessHelper.PhotoViewPicker()  
              photoPicker.select(PhotoSelectOptions)  
                .then(async (PhotoSelectResult) => {  
@@ -173,7 +173,7 @@ In the HarmonyOS 5 ecosystem, ArkWeb serves as a key component for H5 page rende
    * Log Capture and Performance Analysis: Output H5 page logs to the console via **onConsole** callback.
 
      ```typescript
-  .onConsole((event) => {  
+    .onConsole((event) => {  
        if (event) {  
          LogUtil.d(this.Tag, 'onConsole', 'getMessage:', event.message.getMessage(), 'getSourceId:',  
              event.message.getSourceId(), 'getLineNumber:', event.message.getLineNumber(), 'getMessageLevel:',  

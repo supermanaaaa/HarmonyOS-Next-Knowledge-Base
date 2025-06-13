@@ -35,7 +35,7 @@ To allow the truncation behavior of traditional languages, you must explicitly a
 
 ## 2. Null Reference Safety: Bidding Farewell to the "Billion-Dollar Mistake"
 
-Tony Hoare’s invention of null references might be his greatest regret. Cangjie fundamentally plugs this 漏洞 (vulnerability) through type system design.
+Tony Hoare’s invention of null references might be his greatest regret. Cangjie fundamentally plugs this vulnerability through type system design.
 
 ### 2.1 The Philosophy of Option
 
@@ -47,7 +47,7 @@ enum Option<T> {
 }  
 func getUserName(id: String) -> Option<String> {  
     if id == "admin" {  
-        return Some("管理员")  
+        return Some("manager")  
     } else {  
         return None  
     }  
