@@ -2,13 +2,11 @@
 
 An excellent project needs a high-class animation to kick off. Below is a three-step guide to quickly implement a splash animation for HarmonyOS apps.
 
-![Splash GIF](./gif.gif)
 
 ## 1. Create a Window
 
 Use `windowStage.createSubWindow("splash_window")` [Create Window](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V5/js-apis-window-V5#windowcreatewindow9) to manage windows and implement the splash animation loading.
 
-![Window Creation](./01.png)
 
 Create and operate the window within the UIAbility lifecycle:
 
@@ -32,7 +30,6 @@ async onWindowStageCreate(windowStage: window.WindowStage) {
 
 ## 2. Implement Animation Effects with Canvas Component
 
-![Canvas Animation](./02.png)
 
 **Canvas Animation Implementation**
 
