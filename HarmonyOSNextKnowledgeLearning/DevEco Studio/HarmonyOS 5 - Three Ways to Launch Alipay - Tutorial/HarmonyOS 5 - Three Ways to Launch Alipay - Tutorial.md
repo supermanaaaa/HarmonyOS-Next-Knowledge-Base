@@ -103,8 +103,6 @@ In HarmonyOS 5, if you know an app's bundle name, you can launch it using `start
 2. **Via Device File Browser:**
    Path: `/data/app/el2/100/database/com.alipay.mobile.client`
 
-   ![Bundle Path](./image-20240830210616538.png)
-
 **Code Example:**
 
 ```ts
